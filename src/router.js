@@ -10,6 +10,7 @@ import Demo7 from './views/demo7'
 import Demo8 from './views/demo8'
 import Demo9 from './views/demo9'
 import Demo10 from './views/demo10/demo10'
+import Demo11 from './views/demo11'
 Vue.use(Router)
 
 export default new Router({
@@ -65,6 +66,11 @@ export default new Router({
       path: '/Demo10',
       name: 'Demo10',
       component: Demo10
+    },
+    {
+      path: '/Demo11',
+      name: 'Demo11',
+      component: Demo11
     },
     {
       path: '/about',

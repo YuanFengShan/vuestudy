@@ -59,12 +59,15 @@
       <li>
         <router-link to="/Demo10">动态绑定类与样式</router-link>
       </li>
-      <li>课程十二</li>
+      <li>
+        <router-link to="/Demo11">表情</router-link>
+      </li>
     </ol>
   </div>
 </template>
 
 <script>
+import axios from 'axios'
 export default {
   name: 'CourseCatalogue',
   data () {
